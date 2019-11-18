@@ -26,7 +26,6 @@ class Phrase {
         // returns true if the letter is in the active phrase
         // by using the indexOf, returns -1 if index not found otherwise returns the index
 
-        console.log(this.phrase.indexOf(letter));
         return this.phrase.indexOf(letter) > -1;
     }
     showMatchedLetter(letter) {

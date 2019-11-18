@@ -13,3 +13,4 @@ $('#qwerty .key').on('click', function (event) {
     game.activePhrase.checkLetter(event.target.innerText);
 
 });
+
