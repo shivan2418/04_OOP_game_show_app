@@ -14,7 +14,7 @@ class Phrase {
         this.phrase.split('').forEach(letter => {
 
             if (letter === ' ') {
-                phrase_list += `<li class=hide letter space> </li>`
+                phrase_list += "<li class='hide space'> </li>"
             } else {
                 phrase_list += `<li class="hide letter ${letter}">${letter}</li>`
             }
