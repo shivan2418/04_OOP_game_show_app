@@ -26,7 +26,7 @@ class Game {
         });
 
         // make new game instance, choose phrase and add to the div. 
-        game = new Game();
+;
         game.activePhrase = game.getRandomPhrase();
         game.activePhrase.addPhraseToDisplay();
         $('#overlay').hide();
